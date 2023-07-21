@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - -std=c99
+    - -I./cake_libs/
+    - -Wall
+    - -Wextra
+    - -Werror
+    - -Wno-unused-function
+  Compiler: gcc
